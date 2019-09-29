@@ -1,0 +1,17 @@
+.header{
+text-align: right;
+padding: 10px;
+background-color: orange
+}
+
+.image{
+text-align: center;
+padding: 10px;
+color:white
+}
+
+.body{
+    background-color: slategrey;
+    padding: 0px;
+    margin: 0px;
+}
