@@ -1,0 +1,56 @@
+.header{
+text-align: left;
+padding: 10px;
+text-align: center
+}
+
+.linkedIn{
+    padding: 10px;
+}
+
+.gitHub{
+    padding: 10px;
+}
+
+.image{
+   padding: 10px;
+   text-align: center;
+}
+
+.body{
+    background-color: slategrey;
+}
+
+.contact{
+    text-align: center;
+    
+    color: white
+}
+
+#About{
+    padding: 400px;
+    text-align: center;
+    background-color: red
+}
+
+#Skills{
+    padding: 400px;
+    text-align: center;
+}
+
+#Projects{
+    padding: 400px;
+    text-align: center;
+    background-color: red
+}
+
+#WorkExperience{
+    padding: 400px;
+    text-align: center;
+}
+
+#Education{
+    padding: 400px;
+    text-align: center;
+    background-color: red
+}
