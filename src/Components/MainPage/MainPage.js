@@ -14,26 +14,29 @@ class MainPage extends Component {
     render(){
         return(
             <div className="body">
-                <header>
+                <header >
                     
                     <div className="header">
-                        <a href="#About"><Tab label="About"/></a>
-                        <a href="#Skills"><Tab label="Skills" /></a>
-                        <a href="#Projects"><Tab label="Projects" /></a>
-                        <a href="#WorkExperience"><Tab label="Work Experience" /></a>
-                        <a href="#Education"><Tab label="Education" /></a>
-                        
+                        <a href="#About"><Tab label="About" indicatorColor="primary"
+                            textColor="primary"/></a>
+                        <a href="#Skills"><Tab label="Skills" indicatorColor="primary"
+                            textColor="primary"/></a>
+                        <a href="#Projects"><Tab label="Projects" indicatorColor="primary"
+                            textColor="primary"/></a>
+                        <a href="#WorkExperience"><Tab label="Work Experience" indicatorColor="primary"
+                            textColor="primary"/></a>
+                        <a href="#Education"><Tab label="Education" indicatorColor="primary"
+                            textColor="primary"/></a>
                     </div>
                 </header>
+                <div className="sectionOne">
                 <div className="image">
                     <img src="https://raw.githubusercontent.com/DeclanBernardin/Declan-Bernardin-Website/master/Untitled-1.png" alt="image of Declan Bernardin" height="150px" width="150px"></img>
                 </div>
-                <div className="contact">
+                    <div className="contact">
                     <h1>Declan Bernardin</h1>
-                    <p>952-456-2610</p>
-                    <p>dmjbernardin@yahoo.com</p>
                 </div>
-                
+                </div>
                 <section id="About">
                     <h1> About </h1>
                     <a className="linkedIn" href="https://www.linkedin.com/in/declan-bernardin-678045191/"><Tab label={<LinkedInIcon />} /></a>
