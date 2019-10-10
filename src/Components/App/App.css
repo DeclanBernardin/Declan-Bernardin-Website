@@ -1,7 +1,12 @@
-.header{
+@import url(https://fonts.googleapis.com/css?family=Lobster:regular);
+@import url(https://fonts.googleapis.com/css?family=Mr+Dafoe:regular);
+@import url(https://fonts.googleapis.com/css?family=Monoton:regular);
 
+.header{
 padding: 10px;
-text-align: center
+text-align: center;
+color: #6fcb9f;
+font-family: ;
 }
 
 .linkedIn{
@@ -13,51 +18,65 @@ text-align: center
 }
 
 .sectionOne{
-    background-image: url("https://raw.githubusercontent.com/DeclanBernardin/Declan-Bernardin-Website/master/Code%20Image.jpg" );
-    background-size: 1700px 1700px;
+    background-color: #fb2e01;
 }
+
 .image{
     text-align: center;
     padding: 50px;
   
 }
 
-.body{
-    padding: 10px;
+body{
+    margin: 0px;
+    background-color: #fffeb3;
 }
 
 .contact{
     text-align: center;
-    padding: 30px;
-    color: orange;
-    outline-color: black;
-    outline: 10px;
+    padding: 20px;
+    color: transparent;
+    font-family: Monoton;
+    font-size: 40px;
+    color: white;
+    text-shadow: black 2px 4px; 
 }
 
-#About{
+.About{
+    font-family: Monoton;
     padding: 400px;
     text-align: center;
-    background-color: red
+    font-size: 50px;
 }
 
-#Skills{
+.Skills{
+    font-family: Monoton;
     padding: 400px;
     text-align: center;
+    background-color:#6fcb9f;
+    font-size: 50px;
 }
 
-#Projects{
+.Projects{
+    font-family: Monoton;
     padding: 400px;
     text-align: center;
-    background-color: red
+    background-color: #fffeb3;
+    font-size: 50px;
 }
 
-#WorkExperience{
+.WorkExperience{
+    font-family: Monoton;
     padding: 400px;
     text-align: center;
+    background-color:#6fcb9f;
+    font-size: 50px;
 }
 
-#Education{
+.Education{
+    font-family: Monoton;
     padding: 400px;
     text-align: center;
-    background-color: red
+    background-color: #fffeb3;
+    font-size: 50px;
 }
