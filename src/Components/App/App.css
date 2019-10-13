@@ -1,12 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Lobster:regular);
 @import url(https://fonts.googleapis.com/css?family=Mr+Dafoe:regular);
 @import url(https://fonts.googleapis.com/css?family=Monoton:regular);
-
+@import url(https://fonts.googleapis.com/css?family=Bangers:regular);
 .header{
 padding: 10px;
 text-align: center;
 color: #6fcb9f;
-font-family: ;
 }
 
 .linkedIn{
@@ -18,65 +17,104 @@ font-family: ;
 }
 
 .sectionOne{
-    background-color: #fb2e01;
+    padding-top: 200px;
+    padding-bottom: 268px;
+    background:
+    radial-gradient( grey 15%, transparent 10%) 0 0,
+radial-gradient(grey 15%, transparent 10%) 8px 8px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+background-color:#fb2e01;
+background-size:16px 16px;
 }
 
-.image{
-    text-align: center;
-    padding: 50px;
-  
-}
+
 
 body{
     margin: 0px;
     background-color: #fffeb3;
+        background:
+    radial-gradient( grey 15%, transparent 16%) 0 0,
+radial-gradient(grey 15%, transparent 16%) 8px 8px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+background-color:#fffeb3;
+background-size:16px 16px;
 }
+
+
 
 .contact{
     text-align: center;
     padding: 20px;
     color: transparent;
-    font-family: Monoton;
+    font-family: Bangers;
     font-size: 40px;
     color: white;
     text-shadow: black 2px 4px; 
 }
 
-.About{
-    font-family: Monoton;
-    padding: 400px;
-    text-align: center;
+#About{
+    font-family: Bangers;
+    padding: 200px;
     font-size: 50px;
+      background:
+    radial-gradient( grey 15%, transparent 16%) 0 0,
+radial-gradient(grey 15%, transparent 16%) 8px 8px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+background-color:#fffeb3;
+background-size:16px 16px;
 }
 
-.Skills{
-    font-family: Monoton;
-    padding: 400px;
-    text-align: center;
-    background-color:#6fcb9f;
+#Skills{
+    font-family: Bangers;
+    padding: 200px;
     font-size: 50px;
+      background:
+    radial-gradient( grey 15%, transparent 16%) 0 0,
+radial-gradient(grey 15%, transparent 16%) 8px 8px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+background-color:#6fcb9f;
+background-size:16px 16px;
 }
 
-.Projects{
-    font-family: Monoton;
-    padding: 400px;
-    text-align: center;
-    background-color: #fffeb3;
+#Projects{
+    font-family: Bangers;
+    padding: 200px; 
     font-size: 50px;
+     background:
+    radial-gradient( grey 15%, transparent 16%) 0 0,
+radial-gradient(grey 15%, transparent 16%) 8px 8px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+background-color:#fffeb3;
+background-size:16px 16px;
 }
 
-.WorkExperience{
-    font-family: Monoton;
-    padding: 400px;
-    text-align: center;
-    background-color:#6fcb9f;
+#WorkExperience{
+    font-family: Bangers;
+    padding: 200px;
     font-size: 50px;
+    background:
+    radial-gradient( grey 15%, transparent 16%) 0 0,
+radial-gradient(grey 15%, transparent 16%) 8px 8px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+background-color:#6fcb9f;
+background-size:16px 16px;
 }
 
-.Education{
-    font-family: Monoton;
-    padding: 400px;
-    text-align: center;
-    background-color: #fffeb3;
+#Education{
+    font-family: Bangers;
+    padding: 200px;
     font-size: 50px;
+     background:
+    radial-gradient( grey 15%, transparent 16%) 0 0,
+radial-gradient(grey 15%, transparent 16%) 8px 8px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+background-color:#fffeb3;
+background-size:16px 16px;
 }
