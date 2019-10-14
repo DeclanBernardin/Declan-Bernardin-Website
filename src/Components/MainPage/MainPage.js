@@ -81,51 +81,88 @@ toggleEducation = () => {
                 </header>
                 <div className="sectionOne">
                 
-                    <img src="https://raw.githubusercontent.com/DeclanBernardin/Declan-Bernardin-Website/master/Redone-Image.png" alt="image of Declan Bernardin" height="500px"  style={{float: 'Right', margin: '0px', paddingTop: '', }}></img>
+                    <img src="https://raw.githubusercontent.com/DeclanBernardin/Declan-Bernardin-Website/master/Redone-Image.png" alt="image of Declan Bernardin" height="500px" style={{ float: 'Right', margin: '4px', backgroundColor: '#6fcb9f', boxShadow: 'black 4px 4px 4px 4px' }}></img>
                     <div className="contact">
                     <h1>DECLAN BERNARDIN</h1>
-                </div>
+                    </div>
                 </div>
                 {this.state.about ? <section id="About">
-                    <h1 style={{ textAlign: 'center', color: 'black', }}> About Me </h1>
+                    <h1 style={{ textAlign: 'center', color: 'black', fontSize: '70px', color: '#6fcb9f', textShadow: 'black 2px 4px' }}> About Me </h1>
                     <img src="https://raw.githubusercontent.com/DeclanBernardin/Declan-Bernardin-Website/master/ClickHere.png" onClick={this.toggleAbout}></img>
-                    <a className="linkedIn" href="https://www.linkedin.com/in/declan-bernardin-678045191/"><Tab label={<LinkedInIcon />} /></a>
-                    <a className="gitHub" href="https://github.com/DeclanBernardin"><Tab label="GitHub" /></a>
                 </section> :
                 <section id="About">
-                    <h1>About</h1>
+                    <h1 style={{ color: 'black', fontSize: '70px', color: '#6fcb9f', textShadow: 'black 2px 4px' }}>About Me</h1>
+                        {/* <a  href="https://www.linkedin.com/in/declan-bernardin-678045191/"><Tab style={{ color: '#6fcb9f', fontFamily: 'impact', textDecoration: 'none', fontSize: '20px', }}label={<LinkedInIcon />} /></a>
+                        <a href="https://github.com/DeclanBernardin"><Tab label="GitHub" style={{ color: '#6fcb9f', fontFamily: 'impact', textDecoration: 'none', fontSize: '20px',  }}/></a> */}
+                        <div style={{ backgroundColor: 'white', paddingLeft: '20px', boxShadow: 'black 4px 4px', paddingRight: '10px' }}>
+                            <p style={{ fontSize: '40px' }}>I'm a Full Stack Software Engineer. I'm hard working, a fast learner and very excited to start my career.</p>
+                        </div>
                 </section>}
 
                 {this.state.skills ? <section id="Skills">
-                    <h1 style={{ textAlign: 'center', color: 'black', }}>Skills</h1>
+                    <h1 style={{ textAlign: 'center', color: 'black', fontSize: '70px', color: '#fffeb3', textShadow: 'black 2px 4px' }}>Skills</h1>
                     <img src="https://raw.githubusercontent.com/DeclanBernardin/Declan-Bernardin-Website/master/ClickHere.png" onClick={this.toggleSkills}></img>
                 </section> :
                 <section id="Skills">
-                    <h1>Skills</h1>
+                        <h1 onClick={this.toggleSkills} style={{ fontSize: '70px', color: '#fffeb3', textShadow: 'black 2px 4px'}}>Skills</h1>
+                        <div style={{backgroundColor: 'white', paddingLeft: '20px', boxShadow: 'black 4px 4px'}}>
+                        <h3 style={{ fontSize: '50px' }}>Languages:</h3>
+                        <p style={{ fontSize: '40px' }}> JavaScript, HTML5, CSS3</p>
+                        </div>
+                        <div style={{ backgroundColor: 'white', paddingLeft: '20px', boxShadow: 'black 4px 4px' }}>
+                        <h3 style={{ fontSize: '50px' }}>Technologies and Frameworks:</h3>
+                        <p style={{ fontSize: '40px' }}>React JS, Redux, Postgres, Bootstrap, jQuery, Material-UI, Axios, Express, Passport, SQL</p>
+                        </div>
+                        <div style={{ backgroundColor: 'white', paddingLeft: '20px', boxShadow: 'black 4px 4px' }}>
+                        <h3 style={{ fontSize: '50px' }}>Development and Deployment Tools:</h3>
+                        <p style={{ fontSize: '40px' }}>GitHub, Visual Studio Code, Postman, Heroku, Node.js, Postico, Atom </p>
+                        </div>
                 </section>}
 
                 {this.state.projects ? <section id="Projects">
-                    <h1 style={{ textAlign: 'center', color: 'black', }}>Projects</h1>
+                    <h1 style={{ textAlign: 'center', color: 'black', fontSize: '70px', color: '#6fcb9f', textShadow: 'black 2px 4px'}}>Projects</h1>
                     <img src="https://raw.githubusercontent.com/DeclanBernardin/Declan-Bernardin-Website/master/ClickHere.png" onClick={this.toggleProjects}></img>
                 </section> :
                 <section id="Projects">
-                    <h1>Projects</h1>
+                    <h1 style={{ color: 'black', fontSize: '70px', color: '#6fcb9f', textShadow: 'black 2px 4px' }}>Projects</h1>
+                    <h2>Where The Fish?</h2>
+                    <p>An app that allows you to mark your favorite fishing spots.</p>
+                    <h2>Con Ops</h2>
+                    <p>An app designed for the 2D Con staff to allow them to check in attendees.</p>
                 </section>}
 
                 {this.state.workExperience ? <section id="WorkExperience">
-                    <h1 style={{ textAlign: 'center', color: 'black', }}>Work Experience</h1>
+                    <h1 style={{ textAlign: 'center', color: 'black', fontSize: '70px', color: '#fffeb3', textShadow: 'black 2px 4px'}}>Work Experience</h1>
                     <img src="https://raw.githubusercontent.com/DeclanBernardin/Declan-Bernardin-Website/master/ClickHere.png" onClick={this.toggleWorkExperience}></img>  
                 </section> :
                 <section id="WorkExperience">
-                    <h1>Work Experience</h1>
+                    <h1 style={{ color: 'black', fontSize: '70px', color: '#fffeb3', textShadow: 'black 2px 4px' }}>Work Experience</h1>
+                    <div>
+                        <h1>Prime Digital Academy:</h1>
+                    </div>
+                    <div>
+                        <h1></h1>
+                    </div>
                 </section>}
 
                 {this.state.education ? <section id="Education">
-                    <h1 style={{ textAlign: 'center', color: 'black', }}>Education</h1>
+                    <h1 style={{ textAlign: 'center', color: 'black', fontSize: '70px', color: '#6fcb9f', textShadow: 'black 2px 4px'}}>Education</h1>
                     <img src="https://raw.githubusercontent.com/DeclanBernardin/Declan-Bernardin-Website/master/ClickHere.png" onClick={this.toggleEducation}></img>
                 </section> :
                 <section id="Education">
-                    <h1>Education</h1>
+                        <h1 style={{ color: 'black', fontSize: '70px', color: '#6fcb9f', textShadow: 'black 2px 4px' }} onClick={this.toggleEducation}>Education</h1>
+                        <div style={{ backgroundColor: 'white', paddingLeft: '20px', boxShadow: 'black 4px 4px' }}>
+                            <h3 style={{ fontSize: '50px' }}>Prime Digital Academy, October 2019:</h3>
+                            <p style={{ fontSize: '40px' }}>Degree: Full Stack Software Engineering Certification</p>
+                        </div>
+                        <div style={{ backgroundColor: 'white', paddingLeft: '20px', boxShadow: 'black 4px 4px' }}>
+                            <h3 style={{ fontSize: '50px' }}>Inver Hills Community College 2017 - 2018:</h3>
+                            <p style={{ fontSize: '40px' }}>Generals</p>
+                        </div>
+                        <div style={{ backgroundColor: 'white', paddingLeft: '20px', boxShadow: 'black 4px 4px' }}>
+                            <h3 style={{ fontSize: '50px' }}>Food Safety Certification; State of Minnesota Department of Health</h3>
+                            <p style={{ fontSize: '40px' }}>Food Manager Certificate NO.FM96522</p>
+                        </div>
                 </section>}
             </div>
         )

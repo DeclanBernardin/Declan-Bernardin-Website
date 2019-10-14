@@ -18,10 +18,10 @@ color: #6fcb9f;
 
 .sectionOne{
     padding-top: 200px;
-    padding-bottom: 268px;
+    padding-bottom: 275px;
     background:
-    radial-gradient( grey 15%, transparent 10%) 0 0,
-radial-gradient(grey 15%, transparent 10%) 8px 8px,
+    radial-gradient( #666547 15%, transparent 10%) 0 0,
+radial-gradient(#666547 15%, transparent 10%) 8px 8px,
 radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
 radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
 background-color:#fb2e01;
@@ -34,8 +34,8 @@ body{
     margin: 0px;
     background-color: #fffeb3;
         background:
-    radial-gradient( grey 15%, transparent 16%) 0 0,
-radial-gradient(grey 15%, transparent 16%) 8px 8px,
+    radial-gradient( #666547 15%, transparent 16%) 0 0,
+radial-gradient(#666547 15%, transparent 16%) 8px 8px,
 radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
 radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
 background-color:#fffeb3;
@@ -57,10 +57,9 @@ background-size:16px 16px;
 #About{
     font-family: Bangers;
     padding: 200px;
-    font-size: 50px;
       background:
-    radial-gradient( grey 15%, transparent 16%) 0 0,
-radial-gradient(grey 15%, transparent 16%) 8px 8px,
+    radial-gradient( #666547 15%, transparent 16%) 0 0,
+radial-gradient(#666547 15%, transparent 16%) 8px 8px,
 radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
 radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
 background-color:#fffeb3;
@@ -70,10 +69,9 @@ background-size:16px 16px;
 #Skills{
     font-family: Bangers;
     padding: 200px;
-    font-size: 50px;
       background:
-    radial-gradient( grey 15%, transparent 16%) 0 0,
-radial-gradient(grey 15%, transparent 16%) 8px 8px,
+    radial-gradient( #666547 15%, transparent 16%) 0 0,
+radial-gradient(#666547 15%, transparent 16%) 8px 8px,
 radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
 radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
 background-color:#6fcb9f;
@@ -82,11 +80,10 @@ background-size:16px 16px;
 
 #Projects{
     font-family: Bangers;
-    padding: 200px; 
-    font-size: 50px;
+    padding: 200px;
      background:
-    radial-gradient( grey 15%, transparent 16%) 0 0,
-radial-gradient(grey 15%, transparent 16%) 8px 8px,
+    radial-gradient( #666547 15%, transparent 16%) 0 0,
+radial-gradient(#666547 15%, transparent 16%) 8px 8px,
 radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
 radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
 background-color:#fffeb3;
@@ -96,10 +93,9 @@ background-size:16px 16px;
 #WorkExperience{
     font-family: Bangers;
     padding: 200px;
-    font-size: 50px;
     background:
-    radial-gradient( grey 15%, transparent 16%) 0 0,
-radial-gradient(grey 15%, transparent 16%) 8px 8px,
+    radial-gradient( #666547 15%, transparent 16%) 0 0,
+radial-gradient(#666547 15%, transparent 16%) 8px 8px,
 radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
 radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
 background-color:#6fcb9f;
@@ -109,10 +105,9 @@ background-size:16px 16px;
 #Education{
     font-family: Bangers;
     padding: 200px;
-    font-size: 50px;
      background:
-    radial-gradient( grey 15%, transparent 16%) 0 0,
-radial-gradient(grey 15%, transparent 16%) 8px 8px,
+    radial-gradient( #666547 15%, transparent 16%) 0 0,
+radial-gradient(#666547 15%, transparent 16%) 8px 8px,
 radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
 radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
 background-color:#fffeb3;
