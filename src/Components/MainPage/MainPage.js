@@ -80,15 +80,18 @@ toggleEducation = () => {
                     </div>
                 </header>
                 <div className="sectionOne">
-                
-                    <img src="https://raw.githubusercontent.com/DeclanBernardin/Declan-Bernardin-Website/master/Redone-Image.png" alt="image of Declan Bernardin" height="500px" style={{ float: 'Right', margin: '4px', backgroundColor: '#6fcb9f', boxShadow: 'black 4px 4px 4px 4px' }}></img>
+                    <img src="https://raw.githubusercontent.com/DeclanBernardin/Declan-Bernardin-Website/master/Pics/thumbnail.png" height="500px" style={{ float: 'left', margin: '0px', backgroundColor: '#6fcb9f', boxShadow: 'black 4px 4px 4px 4px' }}></img>
+                    <img src="https://raw.githubusercontent.com/DeclanBernardin/Declan-Bernardin-Website/master/Pics/thumbnail%20(1).png" alt="image of Declan Bernardin" height="500px" style={{ float: 'Right', margin: '4px', backgroundColor: '#6fcb9f', boxShadow: 'black 4px 4px 4px 4px' }}></img>
                     <div className="contact">
-                    <h1>DECLAN BERNARDIN</h1>
+                        <h1>DECLAN BERNARDIN</h1>
                     </div>
+                    <img src="https://raw.githubusercontent.com/DeclanBernardin/Declan-Bernardin-Website/master/Pics/thumbnail%20(5).png" height="307px" style={{ float: 'left', marginLeft: '4px', backgroundColor: '#6fcb9f', boxShadow: 'black 4px 4px 4px 4px' }}></img>
+                    <img src="https://raw.githubusercontent.com/DeclanBernardin/Declan-Bernardin-Website/master/Pics/bass-pic.jpeg" height="307" style={{ float: 'left', marginLeft: '4px', backgroundColor: '#6fcb9f', boxShadow: 'black 4px 4px 4px 4px' }}></img>
+                
                 </div>
                 {this.state.about ? <section id="About">
                     <h1 style={{ textAlign: 'center', color: 'black', fontSize: '70px', color: '#6fcb9f', textShadow: 'black 2px 4px' }}> About Me </h1>
-                    <img src="https://raw.githubusercontent.com/DeclanBernardin/Declan-Bernardin-Website/master/ClickHere.png" onClick={this.toggleAbout}></img>
+                    <img src="https://raw.githubusercontent.com/DeclanBernardin/Declan-Bernardin-Website/master/Pics/ClickHere.png" onClick={this.toggleAbout}></img>
                 </section> :
                 <section id="About">
                     <h1 style={{ color: 'black', fontSize: '70px', color: '#6fcb9f', textShadow: 'black 2px 4px' }}>About Me</h1>
@@ -101,7 +104,7 @@ toggleEducation = () => {
 
                 {this.state.skills ? <section id="Skills">
                     <h1 style={{ textAlign: 'center', color: 'black', fontSize: '70px', color: '#fffeb3', textShadow: 'black 2px 4px' }}>Skills</h1>
-                    <img src="https://raw.githubusercontent.com/DeclanBernardin/Declan-Bernardin-Website/master/ClickHere.png" onClick={this.toggleSkills}></img>
+                    <img src="https://raw.githubusercontent.com/DeclanBernardin/Declan-Bernardin-Website/master/Pics/ClickHere.png" onClick={this.toggleSkills}></img>
                 </section> :
                 <section id="Skills">
                         <h1 onClick={this.toggleSkills} style={{ fontSize: '70px', color: '#fffeb3', textShadow: 'black 2px 4px'}}>Skills</h1>
@@ -121,7 +124,7 @@ toggleEducation = () => {
 
                 {this.state.projects ? <section id="Projects">
                     <h1 style={{ textAlign: 'center', color: 'black', fontSize: '70px', color: '#6fcb9f', textShadow: 'black 2px 4px'}}>Projects</h1>
-                    <img src="https://raw.githubusercontent.com/DeclanBernardin/Declan-Bernardin-Website/master/ClickHere.png" onClick={this.toggleProjects}></img>
+                    <img src="https://raw.githubusercontent.com/DeclanBernardin/Declan-Bernardin-Website/master/Pics/ClickHere.png" onClick={this.toggleProjects}></img>
                 </section> :
                 <section id="Projects">
                     <h1 style={{ color: 'black', fontSize: '70px', color: '#6fcb9f', textShadow: 'black 2px 4px' }}>Projects</h1>
@@ -133,7 +136,7 @@ toggleEducation = () => {
 
                 {this.state.workExperience ? <section id="WorkExperience">
                     <h1 style={{ textAlign: 'center', color: 'black', fontSize: '70px', color: '#fffeb3', textShadow: 'black 2px 4px'}}>Work Experience</h1>
-                    <img src="https://raw.githubusercontent.com/DeclanBernardin/Declan-Bernardin-Website/master/ClickHere.png" onClick={this.toggleWorkExperience}></img>  
+                    <img src="https://raw.githubusercontent.com/DeclanBernardin/Declan-Bernardin-Website/master/Pics/ClickHere.png" onClick={this.toggleWorkExperience}></img>  
                 </section> :
                 <section id="WorkExperience">
                     <h1 style={{ color: 'black', fontSize: '70px', color: '#fffeb3', textShadow: 'black 2px 4px' }}>Work Experience</h1>
@@ -147,7 +150,7 @@ toggleEducation = () => {
 
                 {this.state.education ? <section id="Education">
                     <h1 style={{ textAlign: 'center', color: 'black', fontSize: '70px', color: '#6fcb9f', textShadow: 'black 2px 4px'}}>Education</h1>
-                    <img src="https://raw.githubusercontent.com/DeclanBernardin/Declan-Bernardin-Website/master/ClickHere.png" onClick={this.toggleEducation}></img>
+                    <img src="https://raw.githubusercontent.com/DeclanBernardin/Declan-Bernardin-Website/master/Pics/ClickHere.png" onClick={this.toggleEducation}></img>
                 </section> :
                 <section id="Education">
                         <h1 style={{ color: 'black', fontSize: '70px', color: '#6fcb9f', textShadow: 'black 2px 4px' }} onClick={this.toggleEducation}>Education</h1>
